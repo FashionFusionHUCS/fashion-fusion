@@ -41,18 +41,10 @@ export default function DownloadComponent(props) {
                         </a>
                     </Grid>
                     <Grid item>
-                        <a href={require("../documents/poster.pdf")} download="FashionFusion">
+                        <a href={require("../documents/poster.pdf")}>
                             <div className='download-box'>
-                                <img src={github} alt='github repo' style={{ 'width': '35px', 'height': '35px' }} />
+                            <a href='https://github.com/FashionFusionHUCS/fashion-fusion-sources' target="_blank" rel="noopener noreferrer"><img src={github} alt='github repo' style={{ 'width': '35px', 'height': '35px' }} /></a>
                                 <div className='download-box-d'>Repository</div>
-                            </div>
-                        </a>
-                    </Grid>
-                    <Grid item>
-                        <a href={require("../documents/poster.pdf")} download="FashionFusion">
-                            <div className='download-box'>
-                                <img src={folder} alt='source code' style={{ 'width': '35px', 'height': '35px' }} />
-                                <div className='download-box-d'>Source Code</div>
                             </div>
                         </a>
                     </Grid>
