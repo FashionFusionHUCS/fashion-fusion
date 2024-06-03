@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/fashion-fusion/static/css/main.d7c7cbd9.css",
+    "main.js": "/fashion-fusion/static/js/main.35eb89d2.js",
+    "static/js/453.eb0b1051.chunk.js": "/fashion-fusion/static/js/453.eb0b1051.chunk.js",
+    "static/media/poster.pdf": "/fashion-fusion/static/media/poster.a7bdeb93828a0e4f1bf0.pdf",
+    "static/media/bg.png": "/fashion-fusion/static/media/bg.a569ecf2c9d31c903d79.png",
+    "static/media/suggestions.png": "/fashion-fusion/static/media/suggestions.bfb768c93e086fd7e3b4.png",
+    "static/media/integration.png": "/fashion-fusion/static/media/integration.a835bb017f26a691acc6.png",
+    "static/media/home-logo.png": "/fashion-fusion/static/media/home-logo.a11965203a419d98c4f1.png",
+    "static/media/serve.png": "/fashion-fusion/static/media/serve.487bdb4ca6a0c325fdc5.png",
+    "static/media/hf.png": "/fashion-fusion/static/media/hf.88b58bfbb277e405e04d.png",
+    "static/media/hcy.jpeg": "/fashion-fusion/static/media/hcy.f123d7a77954f986b449.jpeg",
+    "static/media/linkedin.png": "/fashion-fusion/static/media/linkedin.e9fc47830595da087db4.png",
+    "static/media/hido.jpeg": "/fashion-fusion/static/media/hido.b6f5bf9ba25c54bcfc99.jpeg",
+    "static/media/givescores.png": "/fashion-fusion/static/media/givescores.60fe62c17b9023d63c71.png",
+    "static/media/eke.jpeg": "/fashion-fusion/static/media/eke.a54f018fdd37998fb108.jpeg",
+    "static/media/nazli.jpg": "/fashion-fusion/static/media/nazli.c0b56eacc851502a0c17.jpg",
+    "static/media/san_francisco-webfont.woff": "/fashion-fusion/static/media/san_francisco-webfont.e139542b236db88aaabb.woff",
+    "static/media/python.png": "/fashion-fusion/static/media/python.c3db4e5aa7969e6625bb.png",
+    "static/media/react.png": "/fashion-fusion/static/media/react.84a0c7e982bcbc2ceca5.png",
+    "static/media/san_francisco-webfont.woff2": "/fashion-fusion/static/media/san_francisco-webfont.477feb72793978e5c0d3.woff2",
+    "static/media/cirrus.png": "/fashion-fusion/static/media/cirrus.7376b8682f18fc2c2c79.png",
+    "static/media/ff2.png": "/fashion-fusion/static/media/ff2.8ff0535f2e592af54729.png",
+    "static/media/js.png": "/fashion-fusion/static/media/js.bb29d6397d8b98fb732b.png",
+    "static/media/githubb.png": "/fashion-fusion/static/media/githubb.1fa29db31cf0515cd3ae.png",
+    "static/media/adobe.png": "/fashion-fusion/static/media/adobe.f566b362d73f35014206.png",
+    "static/media/tensorflow.png": "/fashion-fusion/static/media/tensorflow.0b9812746751b85f631d.png",
+    "static/media/pytorch.png": "/fashion-fusion/static/media/pytorch.87ed90042d5f6cb4951e.png",
+    "static/media/gradio.svg": "/fashion-fusion/static/media/gradio.5ab6b27e83e2f8217e3a1656438315ef.svg",
+    "index.html": "/fashion-fusion/index.html",
+    "main.d7c7cbd9.css.map": "/fashion-fusion/static/css/main.d7c7cbd9.css.map",
+    "main.35eb89d2.js.map": "/fashion-fusion/static/js/main.35eb89d2.js.map",
+    "453.eb0b1051.chunk.js.map": "/fashion-fusion/static/js/453.eb0b1051.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7c7cbd9.css",
+    "static/js/main.35eb89d2.js"
+  ]
+}
