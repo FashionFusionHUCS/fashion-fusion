@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fashion-fusion/static/css/main.b3a46800.css",
-    "main.js": "/fashion-fusion/static/js/main.a7c110f5.js",
+    "main.js": "/fashion-fusion/static/js/main.99db5f68.js",
     "static/js/453.eb0b1051.chunk.js": "/fashion-fusion/static/js/453.eb0b1051.chunk.js",
     "static/media/poster.pdf": "/fashion-fusion/static/media/poster.06097349dee066b7aff3.pdf",
     "static/media/bg.png": "/fashion-fusion/static/media/bg.a569ecf2c9d31c903d79.png",
@@ -30,11 +30,11 @@
     "static/media/gradio.svg": "/fashion-fusion/static/media/gradio.5ab6b27e83e2f8217e3a1656438315ef.svg",
     "index.html": "/fashion-fusion/index.html",
     "main.b3a46800.css.map": "/fashion-fusion/static/css/main.b3a46800.css.map",
-    "main.a7c110f5.js.map": "/fashion-fusion/static/js/main.a7c110f5.js.map",
+    "main.99db5f68.js.map": "/fashion-fusion/static/js/main.99db5f68.js.map",
     "453.eb0b1051.chunk.js.map": "/fashion-fusion/static/js/453.eb0b1051.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3a46800.css",
-    "static/js/main.a7c110f5.js"
+    "static/js/main.99db5f68.js"
   ]
 }
