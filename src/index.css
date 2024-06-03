@@ -9,6 +9,9 @@ body {
   font-family: "San Francisco";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/bg.png");
+  background-position: center;
+  background-attachment: fixed;
 }
 
 code {
@@ -24,10 +27,10 @@ code {
   --blue-2: #5271ff;
   --seffaf: #ffffff4f;
   --m-bottom: 5rem;
-  background-image: url("./images/bg.png");
+  /* background-image: url("./images/bg.png");
   background-position: center;
-  /* background-image: linear-gradient(45deg, #38b6ff 10%, #38b6ff 10%, #5271ff 10%, #5271ff 20%, #5e17eb 20%, #5e17eb 30%, #935dff 30%, #935dff 40%, #dbdbdb 40%, #dbdbdb 50%, #38b6ff 50%, #38b6ff 60%, #5271ff 60%, #5271ff 70%, #5e17eb 70%, #5e17eb 80%, #935dff 80%, #935dff 90%, #dbdbdb 90%, #dbdbdb 100%); */
-  background-attachment: fixed;
+  background-image: linear-gradient(45deg, #38b6ff 10%, #38b6ff 10%, #5271ff 10%, #5271ff 20%, #5e17eb 20%, #5e17eb 30%, #935dff 30%, #935dff 40%, #dbdbdb 40%, #dbdbdb 50%, #38b6ff 50%, #38b6ff 60%, #5271ff 60%, #5271ff 70%, #5e17eb 70%, #5e17eb 80%, #935dff 80%, #935dff 90%, #dbdbdb 90%, #dbdbdb 100%);
+  background-attachment: fixed; */
 }
 
 .App {
