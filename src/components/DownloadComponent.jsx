@@ -1,7 +1,6 @@
 import Grid from '@mui/material/Grid';
 import adobe from '../images/adobe.png';
 import github from '../images/githubb.png';
-import folder from '../images/folder.png';
 
 import DividerComponent from "./DividerComponent";
 
@@ -41,9 +40,9 @@ export default function DownloadComponent(props) {
                         </a>
                     </Grid>
                     <Grid item>
-                        <a href={require("../documents/poster.pdf")}>
+                        <a href='https://github.com/FashionFusionHUCS/fashion-fusion-sources' target="_blank" rel="noopener noreferrer">
                             <div className='download-box'>
-                            <a href='https://github.com/FashionFusionHUCS/fashion-fusion-sources' target="_blank" rel="noopener noreferrer"><img src={github} alt='github repo' style={{ 'width': '35px', 'height': '35px' }} /></a>
+                                <img src={github} alt='github repo' style={{ 'width': '35px', 'height': '35px' }} />
                                 <div className='download-box-d'>Repository</div>
                             </div>
                         </a>
