@@ -1,8 +1,12 @@
+@font-face {
+  font-family: 'San Francisco';
+  src: url('./fonts/san_francisco-webfont.woff') format('woff'),
+    url('./fonts/san_francisco-webfont.woff2') format('woff2');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "San Francisco";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +14,465 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --gray: #dbdbdb;
+  --dark-gray: #434343;
+  --purple-2: #935dff;
+  --purple-1: #5e17eb;
+  --blue-2: #5271ff;
+  --seffaf: #ffffff4f;
+  --m-bottom: 5rem;
+  background-image: url("./images/bg.png");
+  background-position: center;
+  /* background-image: linear-gradient(45deg, #38b6ff 10%, #38b6ff 10%, #5271ff 10%, #5271ff 20%, #5e17eb 20%, #5e17eb 30%, #935dff 30%, #935dff 40%, #dbdbdb 40%, #dbdbdb 50%, #38b6ff 50%, #38b6ff 60%, #5271ff 60%, #5271ff 70%, #5e17eb 70%, #5e17eb 80%, #935dff 80%, #935dff 90%, #dbdbdb 90%, #dbdbdb 100%); */
+  background-attachment: fixed;
+}
+
+.App {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.main-component {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Header*/
+.header-component {
+  box-sizing: border-box;
+  height: 80px;
+  margin: 1rem;
+  background-color: var(--dark-gray);
+  -webkit-border-radius: 1200px;
+  -moz-border-radius: 1200px;
+  border-radius: 1200px;
+  font-family: 'San Francisco';
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: center;
+  position: sticky;
+  top: 1rem;
+  z-index: 1;
+}
+
+.button-tr {
+  --btn-color: transparent;
+  --btn-border-color: transparent;
+  --btn-hover-color: transparent;
+  color: var(--gray);
+  padding: 0px;
+  margin: 0.9rem;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  float: right;
+  margin-right: 20px;
+  color: var(--gray);
+}
+
+/*Header*/
+
+
+.others-component {
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: center;
+}
+
+/* Team/Card component */
+.team-component {
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  justify-content: center;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  margin-bottom: var(--m-bottom);
+}
+
+.team-card {
+  background-color: var(--dark-gray);
+  width: 250px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: var(--gray);
+}
+
+.card-link {
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+
+.card-a {
+  color: inherit;
+}
+
+.card-a:hover {
+  color: inherit;
+  transition: 0.5s ease-in;
+}
+
+.card-name {
+  margin-top: 1rem;
+  font: 'San Francisco';
+  font-size: large;
+  font-weight: normal;
+  color: inherit;
+}
+
+.card-lastname {
+  margin-bottom: 1rem;
+  font: 'San Francisco';
+  font-size: large;
+  font-weight: normal;
+  color: inherit;
+}
+
+.card-job {
+  margin-bottom: 1rem;
+  font: 'San Francisco';
+  font-weight: light;
+  font-size: small;
+  color: inherit;
+}
+/* Team/Card component */
+
+/* Divider component */
+.divider-component {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 100%;
+}
+
+.divider-content {
+  color: var(--gray);
+  font: 'San Francisco';
+  font-weight: normal;
+  font-size: 40px;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.divider-line {
+  border-top: 0.04rem solid rgb(173, 181, 189);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* Divider component */
+
+/* Tech component */
+.tech-component {
+  width: 100%;
+  margin-bottom: var(--m-bottom);
+}
+
+.tech-packet {
+  background-color: var(--dark-gray);
+  -webkit-border-radius: 1200px;
+  -moz-border-radius: 1200px;
+  border-radius: 1200px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 30px;
+  margin: 0 6rem;
+}
+
+.tech-image {
+  width: 80px;
+  height: 80px;
+  margin: 1rem 2.3rem;
+}
+/* Tech component */
+
+.logos {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  float: left;
+  width: 40%;
+}
+
+.logo-1 {
+  width: 13%;
+  height: 100%;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.logo-2 {
+  width: 70%;
+  height: 100%;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-component {
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  background-color: var(--dark-gray);
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.footer-content {
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  color: var(--gray);
+  font: 'San Francisco';
+  font-weight: normal;
+}
+
+.my-paragraph-1 {
+  font: 'San Francisco';
+  font-size: 14px;
+  justify-content: center;
+  font-weight: light;
+}
+
+.my-header-1 {
+  font: 'San Francisco';
+  font-weight: normal;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+/* About Component */
+.about-component {
+  margin-bottom: 8rem;
+}
+
+.boxer-l {
+  background-color: var(--seffaf);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+
+  /* width: 50%; */
+  padding: 30px;
+  margin: 0px;
+  
+  text-align: left;
+
+  font-style: italic;
+  font-size: 19px;
+  color: var(--dark-gray);
+
+  float: left;
+  /* animation: 1s ease-out 0s 1 slideInFromLeft; */
+}
+
+.boxer {
+  background-color: var(--seffaf);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+
+  /* width: 50%; */
+  padding: 30px;
+  margin: 0px;
+  
+  font-style: italic;
+  font-size: 19px;
+  color: var(--dark-gray);
+  /* animation: 1s ease-out 0s 1 slideInFromLeft; */
+}
+
+.boxer-l-img {
+  padding: 30px;
+  margin: 0px;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  display: flex;
+}
+
+.boxer-r {
+  background-color: var(--seffaf);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+
+  padding: 30px;
+  margin: 0px;
+  
+  text-align: left;
+  font-size: 14px;
+  color: var(--dark-gray);
+
+  float: right;
+  /* animation: 1s ease-out 0s 1 slideInFromLeft; */
+}
+
+.about-p {
+  font: 'San Francisco';
+  font-size: 16px;
+  justify-content: center;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.about-h {
+  font: 'San Francisco';
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  font-style: normal;
+}
+
+/* About Component */
+
+/* Watch Component*/
+.watch-component {
+  background-color: var(--seffaf);
+  height: 900px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--m-bottom);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.watch-header {
+  font-size: 40px;
+  color: var(--dark-gray);
+  font: 'San Francisco';
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+.watch-par {
+  color: var(--dark-gray);
+  font: 'San Francisco';
+  font-weight: normal;
+  font-size: 14px;
+}
+/* Watch Component*/
+
+/* Download Component */
+.download-component {
+  width: 100%;
+  margin-bottom: var(--m-bottom);
+}
+
+.download-box {
+  color: black;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.download-box-d {
+  margin-left: 0.5rem;
+  font: 'San Francisco';
+  font-weight: lighter;
+  font-size: 23px;
+  color: var(--dark-gray);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+/* Download Component */
+
+/* Entrance comp*/
+.entrance-component {
+  background-color: var(--seffaf);
+  top: 0px;
+  height: 900px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: -130px;
+  padding-top: 130px;
+}
+
+.gradio-component {
+  margin-bottom: var(--m-bottom);
+}
+
+@media screen and (max-width: 755px) {
+
+  .buttons {
+    display: none;
+  }
+
+  .header-component {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logos {
+    width: 90%;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
