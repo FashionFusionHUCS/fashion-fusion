@@ -1,5 +1,6 @@
 {
-  "name": "https://FashionFusionHUCS.github.io/fashion-fusion",
+  "homepage": "https://FashionFusionHUCS.github.io/fashion-fusion",
+  "name": "fashion-fusion",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
