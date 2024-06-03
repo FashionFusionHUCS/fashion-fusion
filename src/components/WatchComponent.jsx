@@ -45,7 +45,7 @@ export default function WatchComponent(props) {
                         >
                             <Grid item>
                                 <div className='watch-header'>
-                                    Promotional Video
+                                    Watch Our Video!
                                 </div>
                             </Grid>
                         </Grid>

@@ -4,7 +4,7 @@ import DividerComponent from './DividerComponent.jsx';
 
 export default function GradioComponent(props) {
 
-    const div = <DividerComponent name="Demo" />;
+    const div = <DividerComponent name="Try Our Demo"/>;
 
     return (
         <div className="gradio-component" style={{ "alignItems": "center" }} ref={props.myref}>
