@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fashion-fusion/static/css/main.d7c7cbd9.css",
+    "main.css": "/fashion-fusion/static/css/main.b3a46800.css",
     "main.js": "/fashion-fusion/static/js/main.35eb89d2.js",
     "static/js/453.eb0b1051.chunk.js": "/fashion-fusion/static/js/453.eb0b1051.chunk.js",
     "static/media/poster.pdf": "/fashion-fusion/static/media/poster.a7bdeb93828a0e4f1bf0.pdf",
@@ -29,12 +29,12 @@
     "static/media/pytorch.png": "/fashion-fusion/static/media/pytorch.87ed90042d5f6cb4951e.png",
     "static/media/gradio.svg": "/fashion-fusion/static/media/gradio.5ab6b27e83e2f8217e3a1656438315ef.svg",
     "index.html": "/fashion-fusion/index.html",
-    "main.d7c7cbd9.css.map": "/fashion-fusion/static/css/main.d7c7cbd9.css.map",
+    "main.b3a46800.css.map": "/fashion-fusion/static/css/main.b3a46800.css.map",
     "main.35eb89d2.js.map": "/fashion-fusion/static/js/main.35eb89d2.js.map",
     "453.eb0b1051.chunk.js.map": "/fashion-fusion/static/js/453.eb0b1051.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7c7cbd9.css",
+    "static/css/main.b3a46800.css",
     "static/js/main.35eb89d2.js"
   ]
 }
