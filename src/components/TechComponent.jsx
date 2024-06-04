@@ -41,6 +41,7 @@ export default function TechComponent(props) {
                             direction="row"
                             justifyContent="center"
                             alignItems="center"
+                            gridAutoFlow={true}
                         >
                             <Grid item>
                                 <div className="tech-image hover-grow">
