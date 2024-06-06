@@ -23,7 +23,7 @@ export default function WatchComponent(props) {
                     >
                         <Grid item xs={8}>
                             <div class="media-stretch">
-                                <iframe src="https://www.youtube.com/embed/pDZkBnVRT4g?autoplay=0&mute=1" frameborder="0" allow="autoplay; encrypted-media" title='demo-video'></iframe>
+                                <iframe src="https://www.youtube.com/embed/pDZkBnVRT4g?autoplay=0&mute=1" frameborder="0" allow="autoplay; encrypted-media; fullscreen;" title='demo-video'></iframe>
                             </div>
                         </Grid>
                     </Grid>
